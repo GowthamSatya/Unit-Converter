@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&display=swap" rel="stylesheet" />
+
+		<link rel="stylesheet" href="styles.css" />
+
+		<script type="module" src="index.js" defer></script>
+		<script type="module" src="data.js" defer></script>
+		<title>Unit Converter</title>
+	</head>
+
+	<body class="dark">
+		<nav class="navbar card-dark">
+			<span class="nav-text">Convertio</span>
+		</nav>
+		<main class="container">
+			<div class="conv_list_main">
+
+				<ul id="conv_list" class="card-dark"></ul>
+
+			</div>
+			<div class="converter_main card-dark">
+				<span class="current_conv">Length Converter</span>
+				<div class="number_row">
+					<div class="input_row">
+						<input placeholder="Enter a number..." type="number" id="inp" class="input_box" value="1" />
+						<div class="unit_select ">
+							<ul class="select_main">
+								<li class="selected">
+
+								</li>
+							</ul>
+
+							<ul class="dropdown dnone input"></ul>
+						</div>
+
+
+					</div>
+					<div class="output_row">
+						<input placeholder="Enter a number..." disabled type="number" class="input_box" />
+						<div class="unit_select ">
+							<ul class="select_main">
+								<li class="selected">
+
+								</li>
+							</ul>
+
+							<ul class="dropdown dnone output"></ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</main>
+		<footer class="footer card-dark">
+			<span>CodeClause Internship Task-1</span>
+			<span>Made by Gowtham Satya</span>
+		</footer>
+
+
+	</body>
+
+</html>
